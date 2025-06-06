@@ -1,0 +1,36 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ /*
+ .variations {
+    border: 1px solid #c1c1c1;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+*/
+
+
+.attr-icon {
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%; 
+	border-radius: 100%;
+	display: inline-block;
+    border: 1px solid #eaeaea;
+    width: 26px;
+    height: 26px;	
+}
+.attr-icon.active {
+    box-shadow: 0px 0px 4px 1px #888888;
+    display: inline-table;
+}
+.attr-icon img, .attr-icon .attr-bg {
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%; 
+	border-radius: 100%;
+	padding: 1px;	
+    vertical-align: bottom !important;
+    width: 26px;
+    height: 26px;	
+}
